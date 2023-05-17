@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, what would you like to learn about this legal case?',
+        message: 'Hi, what would you like to know about regression?',
         type: 'apiMessage',
       },
     ],
@@ -224,7 +224,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'What is this legal case about?'
+                        : 'Linear regression. What is it?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -261,8 +261,8 @@ export default function Home() {
           </main>
         </div>
         <footer className="m-auto p-4">
-          <a href="https://twitter.com/mayowaoshin">
-            Powered by LangChainAI. Demo built by Mayo (Twitter: @mayowaoshin).
+          <a href="https://twitter.com/">
+            Powered by LangChainAI. 
           </a>
         </footer>
       </Layout>
